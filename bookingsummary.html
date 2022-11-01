@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/bookingsummary.css">
+    <title>Booking Summary Page</title>
+    
+</head>
+<body>
+
+    <!-- a div to create the box around the summary  -->
+<div class="booking-summary-box">       
+    <h2 style="text-align: center; font-size: 35px;">Booking Summary</h2>
+    <div id="gym-details-sum">
+        <!-- gym name and location -->
+    <div id="gym-name-location" style="text-align: center;">
+        <h5>Gym Name : Slashout Fitness Center</h5>
+        <h5>12-2, Banjara Hills, Hyderabad,Telangana</h5>
+    </div>
+
+
+        <hr width="70%" style="opacity: 0.34;">
+
+
+    <!-- name, from and to date, time slot -->
+    <div id="plan-details" style="text-align:center;">
+     <h5>Slash</h5>
+     <h5>Time Slot : 9 AM - 10 AM</h5>
+            <hr width="90%">
+    </div>
+
+    <div id="total-amt" style="text-align:center;">
+        <h5>Total : ₹ 200</h5>
+    </div>
+    </div>
+
+</div>
+
+<button class="pay-now-btn" onclick = "confirm()">Pay Now</button>
+<script>
+
+function confirm(){
+alert("Booking Confirmed");
+}
+
+</script>
+</body>
+</html>

@@ -1,0 +1,187 @@
+@media(min-width: 500px){
+  #helloCarousel{
+    width: 40%;
+    height: 200px;
+  }
+  .dropdown{
+    left: 48px;
+  }
+
+  .gym-details{
+    text-align: center;
+  }
+
+
+  h5{
+    font-weight: normal;
+  }
+
+  .col-md-4{
+    width: 80%;
+    margin-right:60px
+  }
+  .to-right{
+    left: 80px;
+  }
+
+
+}
+
+#grey-bg{
+  color: #000000;
+  background-color: grey;
+  opacity: 0.8;
+}
+
+.slot-availability{
+  margin-top: -80px;
+  margin-left: 130px;
+}
+
+
+
+
+
+#gymdetails-box{
+border: 1px solid #000000;
+border-radius: 20px;
+}
+
+.gym-details{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.gym-details h2{
+  text-align: center;
+}
+
+.gym-details pre{
+  margin-left: -30px;
+}
+
+
+
+
+
+
+
+
+
+.dropbtn {
+  background-color: #000000;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 30%;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #000000;
+}
+
+
+
+
+
+
+
+.card{
+  margin-top: 80px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  padding: 20px;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border-radius: 6px;
+  /* -moz-box-shadow: 0px 0px 5px 0px rgba(212, 182, 212, 1) */
+}
+
+.timeslots{
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.timeslots button{
+  margin: 10px;
+  background-color: #000000;
+  color: #f9f9f9;
+}
+
+
+
+/* CSS */
+.button-31 {
+  background-color: rgb(0, 0, 0);
+  border-radius: 4px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-top: 20px;
+  margin-left: 30%;
+  max-width: none;
+  min-height: 44px;
+  min-width: 10px;
+  outline: none;
+  overflow: hidden;
+  padding: 9px 20px 8px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 40%;
+}
+
+.button-31:hover,
+.button-31:focus {
+  opacity: .75;
+}

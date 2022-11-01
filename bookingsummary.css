@@ -1,0 +1,72 @@
+h5{
+    font-size: 20px;
+    font-weight: lighter;
+
+}
+
+
+
+
+
+.booking-summary-box{
+position: absolute;
+width: 972px;
+height: 550px;
+/* left: 250px; */
+right: 320px;
+top: 50px;
+background: #E9E2E2;
+border-radius: 15px;
+}
+
+
+#plan-details-id{
+    height: -60px;
+}
+
+
+
+.pay-now-btn{
+font-size: 25px;
+color: white;
+position: absolute;
+width: 250px;
+height: 70px;
+left: 600px;
+top: 635px;
+cursor: pointer;
+background: #000000;
+border-radius: 18px;
+}
+
+#gym-details-sum{
+    line-height: 30px;
+}
+
+
+
+@media screen and (max-width:500px){
+
+    .booking-summary-box{
+        position: absolute;
+        width: 700px;
+        height: 650px;
+        left: 10px;
+        top: 50px;
+        background: #E9E2E2;
+        border-radius: 50px;
+        }
+        .pay-now-btn{
+        color: white;
+        font-size: 25px;
+        position: absolute;
+        width: 200px;
+        height: 70px;
+        left: 275px;
+        top: 800px;
+        background: #000000;
+        border-radius: 18px;
+            
+    }
+
+}
